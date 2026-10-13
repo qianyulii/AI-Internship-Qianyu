@@ -1,0 +1,54 @@
+{
+  "title": "AI 科研实践实习任务书 v2.2",
+  "sourceUrl": "https://my.feishu.cn/wiki/CYRGwckoIiIBcckhkCHcTREUnzi",
+  "savedAt": "2026-10-12T04:40:48.973Z",
+  "savedLocalTime": "2026-10-11 23:40 CDT",
+  "checks": {
+    "originalBlockIdRange": [
+      798,
+      1376
+    ],
+    "missingOriginalBlockIds": [],
+    "capturedNodeCount": 795,
+    "topLevelBlockCount": 529,
+    "tableCount": 8,
+    "tableCellCount": 131,
+    "codeBlockCount": 17,
+    "weekHeadings": [
+      "第 1 周：AI 认知、工具流、Iris 与线性回归",
+      "第 2 周：传统机器学习实战专题",
+      "第 3 周：Kaggle 表格竞赛专题",
+      "第 4 周：论文复现 1，LeNet-5 + MNIST",
+      "第 5 周：ResNet 论文复现 + Transformer 精读启动",
+      "第 6 周：Dog Breed 图像识别 + 人脸识别进阶",
+      "第 7 周：Transformer 精读 + 本地大模型部署 + RAG 项目",
+      "第 8 周：最终整合、技术文章与答辩"
+    ],
+    "lastScroll": [
+      {
+        "height": 725,
+        "top": 25559,
+        "total": 26284
+      }
+    ],
+    "sourceSha256": "d6718de17606ad911d86e9ffc182722c581551c1c563ae453cc0675ea239e335",
+    "files": {
+      "前三周-查阅版.html": {
+        "bytes": 22250,
+        "sha256": "3fb368f33c4bc4ede19a4f7402cf0d52a623aed6d45e3bc5c35522cb461fc639"
+      },
+      "AI-科研实践实习任务书-v2.2.md": {
+        "bytes": 24673,
+        "sha256": "27564103df3e70f998ced39c7a866a2b93046b3c2e6c10ad7a02fc8857869787"
+      },
+      "前三周-查阅版.md": {
+        "bytes": 11171,
+        "sha256": "7c9d0b02f17fe83e366fab261acc1e2a0f6a166e6771f683d825895d81796abb"
+      },
+      "AI-科研实践实习任务书-v2.2.html": {
+        "bytes": 50973,
+        "sha256": "4e8ffc0ec2e795c4f208cc3676a66f16578cae5041e1b077004386df5a008cca"
+      }
+    }
+  }
+}

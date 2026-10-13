@@ -1,0 +1,193 @@
+<!doctype html>
+<html lang="zh-CN"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>前三周查阅版</title><style>
+:root{color-scheme:light;--ink:#253344;--accent:#146a65;--paper:#fff;--edge:#dce5e3}
+*{box-sizing:border-box}html{scroll-behavior:smooth}body{margin:0;font:16px/1.85 -apple-system,BlinkMacSystemFont,'PingFang SC','Microsoft YaHei',sans-serif;color:var(--ink);background:#f3f6f5}
+a{color:var(--accent);text-decoration:none}a:hover{text-decoration:underline}aside{position:fixed;top:0;bottom:0;width:280px;padding:28px 22px;overflow:auto;border-right:1px solid var(--edge);background:#edf3f1}
+aside .brand{font-size:18px;font-weight:650;margin-bottom:12px}aside a{display:block;font-size:13px;line-height:1.6;padding:5px 0}.sub{padding-left:14px!important;color:#5b6a72}
+main{max-width:1120px;margin:0 auto 0 280px;padding:54px 64px 100px;background:var(--paper);min-height:100vh}h1{font-size:32px;line-height:1.4;letter-spacing:-.4px}h2{font-size:25px;margin-top:60px;border-bottom:1px solid var(--edge);padding-bottom:12px}h3{font-size:21px;margin-top:40px}h4{font-size:17px;margin:28px 0 12px;color:var(--accent)}h2,h3,h4{scroll-margin-top:26px}
+.meta{font-size:13px;color:#64747b;margin:20px 0 32px}.scope{padding:22px 25px;background:#eaf4ef;border-left:4px solid var(--accent);border-radius:4px;margin:28px 0}.scope p{margin:8px 0}.tag{font-size:12px;letter-spacing:1px;color:var(--accent);font-weight:700}
+.task{display:flex;gap:11px;margin:7px 0}.task>span:first-child{min-width:18px;color:#6b837c}pre{background:#f4f7f6;border:1px solid var(--edge);border-radius:8px;padding:20px;overflow:auto;font:13px/1.7 Menlo,Consolas,monospace;white-space:pre}blockquote{margin:25px 0;padding:10px 22px;border-left:3px solid #abc6bd;color:#53666c}hr{border:0;border-top:1px solid var(--edge);margin:40px 0}
+.table-wrap{overflow:auto;margin:22px 0}table{border-collapse:collapse;width:100%;font-size:14px;line-height:1.65}td,th{border:1px solid var(--edge);padding:12px;min-width:95px;vertical-align:top;text-align:left;overflow-wrap:anywhere}th{background:#ecf3ef;font-weight:600}td a{font-size:12px}footer{margin-top:50px;font-size:12px;color:#78888d}
+@media(max-width:950px){aside{position:static;width:auto;max-height:260px;border:0;border-bottom:1px solid var(--edge)}main{margin:0;padding:30px 24px}h1{font-size:26px}}
+@media print{aside{display:none}body{background:white}main{margin:0;max-width:none;padding:0}pre,table,.scope{break-inside:avoid}a{color:inherit}.meta{font-size:10px}h2,h3,h4{break-after:avoid}}
+</style></head>
+<body><aside><div class="brand">CASIA · 科研任务</div><a href="AI-科研实践实习任务书-v2.2.html">完整任务书</a><a href="前三周-查阅版.html">前三周查阅版</a><hr><a class="" href="#KxZfd2dd1ohqFyx9HnJcL4bBnUc">一、使用方式</a><a class="sub" href="#Kxqmddci9oYdFfxWG8OcnhWnnjh">你需要先完成的基础准备</a><a class="sub" href="#XbpGdRRUhonVevxLtwacw0sfnlf">建议仓库命名</a><a class="sub" href="#WskrdoKBNo75T1xnwgLcPvH0n1b">建议仓库结构</a><a class="sub" href="#HVojdczjhoNZT6xXQEQcoFB6nYb">每周目录统一要求</a><a class="" href="#XyEkdl1VGoKJ3vxbGpNcXApfnlh">三、项目与数据链接</a><a class="sub" href="#GHBTdOOnqolgaDxtIuvcYrd1n72">1. AI 入门与工具学习</a><a class="sub" href="#O2IpdtqTfo3G52xz0Lhc2EOJnDg">2. 基础机器学习项目</a><a class="sub" href="#QxEVdIAIzowKpsxqbV9cFXPhnWd">3. 传统机器学习实战</a><a class="sub" href="#UZhEdoCDmoK7GGxXNWrcWp8znWe">4. Kaggle 项目</a><a class="" href="#HsImdZi6roJw2kxJiRZcIMiVnmf">四、每周任务详情</a><a class="sub" href="#AXjFdgPR6o0jEuxR0F1c6vTHnJ0">第 1 周：AI 认知、工具流、Iris 与线性回归</a><a class="sub" href="#B5D9dG6kgobsyhxmtOdcxkgFnfb">第 2 周：传统机器学习实战专题</a><a class="sub" href="#E8T6dWQ86oJ1PTxryCucuB7qnLM">第 3 周：Kaggle 表格竞赛专题</a><a class="" href="#V4iKde4BaojRKBx4oM4cPPx0nYe">六、特别强调</a></aside>
+<main><div class="tag">本地归档 · v2.2</div><h1>前三周查阅版</h1><div class="meta">作者：张志琳 · 8月11日修改<br>保存于 2026-10-11 23:40 CDT · <a href="https://my.feishu.cn/wiki/CYRGwckoIiIBcckhkCHcTREUnzi">查看飞书原文</a><br>正文从 Chrome 逐段归档；本地副本不自动同步。</div><div class="scope"><strong>下周范围 · 2026-10-12 至 2026-10-18</strong><p>原任务书第 1–3 周。以下保留基础准备、通用目录、相关资源表、三周任务与验收要求及全局注意事项。</p><p>第 1 周：AI 基础、Iris、线性回归。至少 6 张图、2 个结果表，报告 ≥1000 字。</p><p>第 2 周：2 个必做 + 至少 2 个选做。至少 8 张图、4 个模型对比表，报告 ≥1500 字。</p><p>第 3 周：Titanic、House Prices。每项至少 4 个模型、5 张图、2 次 Kaggle 提交，报告 ≥1500 字。</p><p>资源表沿用原文，其中 Dog Breed 属于后续周次。</p></div><blockquote>这是一份面向你个人的 8 周实习任务书。你需要按照每周要求完成项目、提交代码、记录实验、整理报告，并在最后形成一个可以展示的 AI 项目作品集。</blockquote>
+<hr>
+<h2 id="KxZfd2dd1ohqFyx9HnJcL4bBnUc">一、使用方式</h2>
+<h3 id="Kxqmddci9oYdFfxWG8OcnhWnnjh">你需要先完成的基础准备</h3>
+<div class="task"><span aria-hidden="true">☐</span><span>建立 GitHub 或 Gitee 个人项目仓库</span></div>
+<div class="task"><span aria-hidden="true">☐</span><span>建立 Kaggle 账号并完善个人主页</span></div>
+<div class="task"><span aria-hidden="true">☐</span><span>按周建立项目目录</span></div>
+<div class="task"><span aria-hidden="true">☐</span><span>每周按要求提交代码、图表、实验结果和报告</span></div>
+<div class="task"><span aria-hidden="true">☐</span><span>最终形成一篇完整技术文章和答辩 PPT</span></div>
+<h3 id="XbpGdRRUhonVevxLtwacw0sfnlf">建议仓库命名</h3>
+<pre><code>AI-Internship-你的姓名</code></pre>
+<h3 id="WskrdoKBNo75T1xnwgLcPvH0n1b">建议仓库结构</h3>
+<pre><code>AI-Internship-你的姓名/
+├─ README.md
+├─ Week01_AI_Basic_Iris_Regression/
+├─ Week02_ML_Practical_Projects/
+├─ Week03_Kaggle_Tabular/
+├─ Week04_LeNet_MNIST/
+├─ Week05_ResNet_Transformer/
+├─ Week06_DogBreed_FaceRecognition/
+├─ Week07_LocalLLM_RAG/
+├─ Week08_Final_Report/
+└─ docs/</code></pre>
+<h3 id="HVojdczjhoNZT6xXQEQcoFB6nYb">每周目录统一要求</h3>
+<pre><code>WeekXX_ProjectName/
+├─ README.md
+├─ notebooks/
+├─ src/
+├─ data_source.md
+├─ results/
+│  ├─ figures/
+│  ├─ metrics.csv
+│  └─ screenshots/
+├─ error_analysis.md
+├─ report.md
+└─ run_log.txt</code></pre>
+<hr>
+<h2 id="XyEkdl1VGoKJ3vxbGpNcXApfnlh">三、项目与数据链接</h2>
+<h3 id="GHBTdOOnqolgaDxtIuvcYrd1n72">1. AI 入门与工具学习</h3>
+<div class="table-wrap"><table><tr><th>内容</th><th>链接</th></tr><tr><td>吴恩达 AI for Everyone</td><td><a href="https://www.deeplearning.ai/courses/ai-for-everyone/" target="_blank" rel="noopener noreferrer">https://www.deeplearning.ai/courses/ai-for-everyone/</a></td></tr><tr><td>吴恩达 Generative AI for Everyone</td><td><a href="https://www.deeplearning.ai/courses/generative-ai-for-everyone/" target="_blank" rel="noopener noreferrer">https://www.deeplearning.ai/courses/generative-ai-for-everyone/</a></td></tr><tr><td>吴恩达 AI Prompting for Everyone</td><td><a href="https://www.deeplearning.ai/courses/ai-prompting-for-everyone/" target="_blank" rel="noopener noreferrer">https://www.deeplearning.ai/courses/ai-prompting-for-everyone/</a></td></tr><tr><td>Karpathy 大模型入门</td><td><a href="https://www.youtube.com/watch?v=zjkBMFhNj_g" target="_blank" rel="noopener noreferrer">https://www.youtube.com/watch?v=zjkBMFhNj_g</a></td></tr></table></div>
+<p>如果无法访问 YouTube，可在 B 站搜索：</p>
+<pre><code>Andrej Karpathy 大模型入门</code></pre>
+<h3 id="O2IpdtqTfo3G52xz0Lhc2EOJnDg">2. 基础机器学习项目</h3>
+<div class="table-wrap"><table><tr><th>项目</th><th>数据链接</th><th>任务类型</th></tr><tr><td>Iris 鸢尾花分类</td><td><a href="https://archive.ics.uci.edu/dataset/53/iris" target="_blank" rel="noopener noreferrer">https://archive.ics.uci.edu/dataset/53/iris</a></td><td>多分类</td></tr><tr><td>sklearn Iris 示例</td><td><a href="https://scikit-learn.org/stable/auto_examples/datasets/plot_iris_dataset.html" target="_blank" rel="noopener noreferrer">https://scikit-learn.org/stable/auto_examples/datasets/plot_iris_dataset.html</a></td><td>示例参考</td></tr><tr><td>California Housing</td><td><a href="https://scikit-learn.org/stable/modules/generated/sklearn.datasets.fetch_california_housing.html" target="_blank" rel="noopener noreferrer">https://scikit-learn.org/stable/modules/generated/sklearn.datasets.fetch_california_housing.html</a></td><td>回归</td></tr><tr><td>Diabetes Regression Dataset</td><td><a href="https://scikit-learn.org/stable/modules/generated/sklearn.datasets.load_diabetes.html" target="_blank" rel="noopener noreferrer">https://scikit-learn.org/stable/modules/generated/sklearn.datasets.load_diabetes.html</a></td><td>回归</td></tr></table></div>
+<h3 id="QxEVdIAIzowKpsxqbV9cFXPhnWd">3. 传统机器学习实战</h3>
+<div class="table-wrap"><table><tr><th>项目</th><th>数据链接</th><th>推荐算法</th></tr><tr><td>信用卡违约预测</td><td><a href="https://archive.ics.uci.edu/dataset/350/default+of+credit+card+clients" target="_blank" rel="noopener noreferrer">https://archive.ics.uci.edu/dataset/350/default+of+credit+card+clients</a></td><td>LR、DT、RF、XGBoost/LightGBM</td></tr><tr><td>糖尿病预测</td><td><a href="https://www.kaggle.com/datasets/uciml/pima-indians-diabetes-database" target="_blank" rel="noopener noreferrer">https://www.kaggle.com/datasets/uciml/pima-indians-diabetes-database</a></td><td>LR、RF、XGBoost、SVM</td></tr><tr><td>亚洲足球梯队聚类</td><td><a href="https://inside.fifa.com/fifa-world-ranking/men" target="_blank" rel="noopener noreferrer">https://inside.fifa.com/fifa-world-ranking/men</a></td><td>KMeans、PCA、层次聚类</td></tr><tr><td>异常行为识别</td><td><a href="https://www.kaggle.com/datasets/mlg-ulb/creditcardfraud" target="_blank" rel="noopener noreferrer">https://www.kaggle.com/datasets/mlg-ulb/creditcardfraud</a></td><td>Isolation Forest、One-Class SVM</td></tr><tr><td>Online Retail 用户行为</td><td><a href="https://archive.ics.uci.edu/dataset/352/online+retail" target="_blank" rel="noopener noreferrer">https://archive.ics.uci.edu/dataset/352/online+retail</a></td><td>用户行为分析、异常检测</td></tr><tr><td>学生成绩预测</td><td><a href="https://archive.ics.uci.edu/dataset/320/student+performance" target="_blank" rel="noopener noreferrer">https://archive.ics.uci.edu/dataset/320/student+performance</a></td><td>回归/分类、RF、XGBoost</td></tr><tr><td>天气预测 Jena Climate</td><td><a href="https://storage.googleapis.com/tensorflow/tf-keras-datasets/jena_climate_2009_2016.csv.zip" target="_blank" rel="noopener noreferrer">https://storage.googleapis.com/tensorflow/tf-keras-datasets/jena_climate_2009_2016.csv.zip</a></td><td>时间序列、回归、LSTM 选做</td></tr></table></div>
+<h3 id="UZhEdoCDmoK7GGxXNWrcWp8znWe">4. Kaggle 项目</h3>
+<div class="table-wrap"><table><tr><th>项目</th><th>链接</th><th>要求</th></tr><tr><td>Titanic 生存预测</td><td><a href="https://www.kaggle.com/c/titanic" target="_blank" rel="noopener noreferrer">https://www.kaggle.com/c/titanic</a></td><td>至少 2 次提交</td></tr><tr><td>House Prices 房价预测</td><td><a href="https://www.kaggle.com/c/house-prices-advanced-regression-techniques" target="_blank" rel="noopener noreferrer">https://www.kaggle.com/c/house-prices-advanced-regression-techniques</a></td><td>至少 2 次提交</td></tr><tr><td>Dog Breed Identification</td><td><a href="https://www.kaggle.com/c/dog-breed-identification" target="_blank" rel="noopener noreferrer">https://www.kaggle.com/c/dog-breed-identification</a></td><td>至少 1 次提交</td></tr></table></div>
+<h2 id="HsImdZi6roJw2kxJiRZcIMiVnmf">四、每周任务详情</h2>
+<h3 id="AXjFdgPR6o0jEuxR0F1c6vTHnJ0">第 1 周：AI 认知、工具流、Iris 与线性回归</h3>
+<h4 id="BxRodkMaTovkxmxgNN3cBYclnwX">本周目标</h4>
+<p>你需要完成 AI 基础认知、工具流搭建、GitHub/Kaggle 初始化，并完成两个基础机器学习项目。</p>
+<h4 id="Wu75d9z2LoncAzx0lrsccSNunWg">你需要完成</h4>
+<div class="task"><span aria-hidden="true">☐</span><span>注册 GitHub 或 Gitee</span></div>
+<div class="task"><span aria-hidden="true">☐</span><span>注册 Kaggle</span></div>
+<div class="task"><span aria-hidden="true">☐</span><span>创建个人实习总仓库</span></div>
+<div class="task"><span aria-hidden="true">☐</span><span>完成 Iris 鸢尾花分类</span></div>
+<div class="task"><span aria-hidden="true">☐</span><span>完成线性回归项目</span></div>
+<div class="task"><span aria-hidden="true">☐</span><span>记录 AI 工具使用过程</span></div>
+<h4 id="Ic4RdY0C2oU8glx7KbZcUhx8nRf">Iris 项目要求</h4>
+<div class="task"><span aria-hidden="true">☐</span><span>读取 Iris 数据</span></div>
+<div class="task"><span aria-hidden="true">☐</span><span>输出数据基本信息</span></div>
+<div class="task"><span aria-hidden="true">☐</span><span>绘制类别分布图、特征散点图、相关性热力图</span></div>
+<div class="task"><span aria-hidden="true">☐</span><span>使用 Logistic Regression、KNN、Decision Tree</span></div>
+<div class="task"><span aria-hidden="true">☐</span><span>输出 Accuracy 和混淆矩阵</span></div>
+<div class="task"><span aria-hidden="true">☐</span><span>分析哪个特征对分类最有帮助</span></div>
+<h4 id="CIiNdP1tgoVtifxv73Nc5E3pnOe">线性回归项目要求</h4>
+<div class="task"><span aria-hidden="true">☐</span><span>使用 California Housing 或 Diabetes Regression 数据</span></div>
+<div class="task"><span aria-hidden="true">☐</span><span>分析目标变量分布</span></div>
+<div class="task"><span aria-hidden="true">☐</span><span>分析特征相关性</span></div>
+<div class="task"><span aria-hidden="true">☐</span><span>使用 Linear Regression</span></div>
+<div class="task"><span aria-hidden="true">☐</span><span>增加 Ridge 或 Random Forest Regressor 对比</span></div>
+<div class="task"><span aria-hidden="true">☐</span><span>输出 MSE、RMSE、MAE、R2</span></div>
+<div class="task"><span aria-hidden="true">☐</span><span>绘制真实值 vs 预测值图</span></div>
+<h4 id="FUwQdx1swonC0kxtFSXc1ogJnIf">本周提交</h4>
+<pre><code>Week01_AI_Basic_Iris_Regression/
+├─ README.md
+├─ AI_认知与工具记录.md
+├─ Iris_Classification.ipynb
+├─ Linear_Regression.ipynb
+├─ data_source.md
+├─ results/
+│  ├─ iris_confusion_matrix.png
+│  ├─ iris_feature_plot.png
+│  ├─ regression_pred_vs_true.png
+│  └─ metrics.csv
+├─ report.md
+└─ run_log.txt</code></pre>
+<h4 id="NlxkdxYJro7jV2x6J4Ccul5Xn4g">本周验收标准</h4>
+<div class="task"><span aria-hidden="true">☐</span><span>GitHub/Gitee 仓库链接已提交</span></div>
+<div class="task"><span aria-hidden="true">☐</span><span>Kaggle 主页链接已提交</span></div>
+<div class="task"><span aria-hidden="true">☐</span><span>Iris 项目完整运行</span></div>
+<div class="task"><span aria-hidden="true">☐</span><span>线性回归项目完整运行</span></div>
+<div class="task"><span aria-hidden="true">☐</span><span>至少 6 张图</span></div>
+<div class="task"><span aria-hidden="true">☐</span><span>至少 2 个模型结果表</span></div>
+<div class="task"><span aria-hidden="true">☐</span><span>周报告不少于 1000 字</span></div>
+<hr>
+<h3 id="B5D9dG6kgobsyhxmtOdcxkgFnfb">第 2 周：传统机器学习实战专题</h3>
+<h4 id="YY6sd9jl9oCmqHxt687cnepbnkT">本周目标</h4>
+<p>你需要完成多个传统机器学习项目，建立分类、回归、聚类和异常检测的基本能力。</p>
+<h4 id="Tovad3CGzoewLUxuCuNcgk1Tns6">必做项目</h4>
+<div class="task"><span aria-hidden="true">☐</span><span>信用卡还款/违约预测</span></div>
+<div class="task"><span aria-hidden="true">☐</span><span>糖尿病预测与分析</span></div>
+<h4 id="LyzwdwQCUoyy0gxiqglcjv6LnYd">选做项目，至少完成 2 个</h4>
+<div class="task"><span aria-hidden="true">☐</span><span>聚类算法分析亚洲足球梯队</span></div>
+<div class="task"><span aria-hidden="true">☐</span><span>异常行为用户自动识别</span></div>
+<div class="task"><span aria-hidden="true">☐</span><span>学生成绩可视化与预测</span></div>
+<div class="task"><span aria-hidden="true">☐</span><span>天气数据可视化与预测</span></div>
+<h4 id="AaPldItLqoebZ7xgiRscvqHtnSf">本周提交</h4>
+<pre><code>Week02_ML_Practical_Projects/
+├─ Credit_Default_Prediction.ipynb
+├─ Diabetes_Prediction.ipynb
+├─ Optional_Project_1/
+├─ Optional_Project_2/
+├─ results/
+│  ├─ model_comparison.csv
+│  ├─ roc_curve.png
+│  ├─ feature_importance.png
+│  └─ optional_project_figures/
+├─ report.md
+└─ run_log.txt</code></pre>
+<h4 id="CMg6diyHXo3FscxhXrccFYT8nmh">本周验收标准</h4>
+<div class="task"><span aria-hidden="true">☐</span><span>必做项目 2 个</span></div>
+<div class="task"><span aria-hidden="true">☐</span><span>选做项目至少 2 个</span></div>
+<div class="task"><span aria-hidden="true">☐</span><span>总计至少 4 个机器学习项目</span></div>
+<div class="task"><span aria-hidden="true">☐</span><span>至少 8 张图</span></div>
+<div class="task"><span aria-hidden="true">☐</span><span>至少 4 个模型对比表</span></div>
+<div class="task"><span aria-hidden="true">☐</span><span>周报告不少于 1500 字</span></div>
+<hr>
+<h3 id="E8T6dWQ86oJ1PTxryCucuB7qnLM">第 3 周：Kaggle 表格竞赛专题</h3>
+<h4 id="REwddaUuyonQ7yxOaMacQOSpnCd">本周目标</h4>
+<p>你需要完成 Titanic 和 House Prices 两个 Kaggle 项目，并进行多模型对比、特征工程和真实提交。</p>
+<h4 id="HSYzd7b0Lobhbrxj10wcbmjVnpe">Titanic 要求</h4>
+<div class="task"><span aria-hidden="true">☐</span><span>完成 EDA</span></div>
+<div class="task"><span aria-hidden="true">☐</span><span>处理缺失值</span></div>
+<div class="task"><span aria-hidden="true">☐</span><span>完成 Title、FamilySize、IsAlone、Age 分箱、Fare 分箱</span></div>
+<div class="task"><span aria-hidden="true">☐</span><span>至少使用 4 个模型</span></div>
+<div class="task"><span aria-hidden="true">☐</span><span>至少完成 2 次 Kaggle 提交</span></div>
+<div class="task"><span aria-hidden="true">☐</span><span>记录每次提交分数</span></div>
+<h4 id="XGTMdxc1CogQffxsc85cV9YtnZK">House Prices 要求</h4>
+<div class="task"><span aria-hidden="true">☐</span><span>完成 EDA</span></div>
+<div class="task"><span aria-hidden="true">☐</span><span>处理缺失值</span></div>
+<div class="task"><span aria-hidden="true">☐</span><span>类别变量编码</span></div>
+<div class="task"><span aria-hidden="true">☐</span><span>对 SalePrice 做 log 变换</span></div>
+<div class="task"><span aria-hidden="true">☐</span><span>至少使用 4 个模型</span></div>
+<div class="task"><span aria-hidden="true">☐</span><span>尝试模型融合</span></div>
+<div class="task"><span aria-hidden="true">☐</span><span>至少完成 2 次 Kaggle 提交</span></div>
+<h4 id="VITldcZe0o75z5x8JGocbH75nqd">本周提交</h4>
+<pre><code>Week03_Kaggle_Tabular/
+├─ Titanic_Advanced.ipynb
+├─ House_Prices_Advanced.ipynb
+├─ kaggle_submission_screenshots/
+├─ results/
+│  ├─ titanic_model_comparison.csv
+│  ├─ house_model_comparison.csv
+│  ├─ feature_engineering.md
+│  └─ figures/
+├─ report.md
+└─ run_log.txt</code></pre>
+<h4 id="RsH7dI9OUoiFoIxj4DfcJfmQnJh">本周验收标准</h4>
+<div class="task"><span aria-hidden="true">☐</span><span>Titanic 至少 2 次 Kaggle 提交</span></div>
+<div class="task"><span aria-hidden="true">☐</span><span>House Prices 至少 2 次 Kaggle 提交</span></div>
+<div class="task"><span aria-hidden="true">☐</span><span>每个项目至少 4 个模型</span></div>
+<div class="task"><span aria-hidden="true">☐</span><span>每个项目至少 5 张图</span></div>
+<div class="task"><span aria-hidden="true">☐</span><span>周报告不少于 1500 字</span></div>
+<div class="task"><span aria-hidden="true">☐</span><span>附 Kaggle 主页链接和提交截图</span></div>
+<hr>
+<h2 id="V4iKde4BaojRKBx4oM4cPPx0nYe">六、特别强调</h2>
+<div class="task"><span aria-hidden="true">☐</span><span>每周必须提交代码，不能只交截图</span></div>
+<div class="task"><span aria-hidden="true">☐</span><span>每周必须有实验结果表</span></div>
+<div class="task"><span aria-hidden="true">☐</span><span>每周必须有图表</span></div>
+<div class="task"><span aria-hidden="true">☐</span><span>每周必须写清楚数据来源</span></div>
+<div class="task"><span aria-hidden="true">☐</span><span>每周必须写清楚遇到的问题和解决方法</span></div>
+<div class="task"><span aria-hidden="true">☐</span><span>可以使用 AI 工具，但必须注明 AI 辅助内容</span></div>
+<div class="task"><span aria-hidden="true">☐</span><span>不允许直接复制 Kaggle Notebook 或 GitHub 代码却不说明来源</span></div>
+<div class="task"><span aria-hidden="true">☐</span><span>最终报告不能写成学习心得，必须写成项目型技术文章</span></div>
+<div class="task"><span aria-hidden="true">☐</span><span>如果某个项目运行失败，也需要提交失败记录、报错截图和解决尝试</span></div>
+<div class="task"><span aria-hidden="true">☐</span><span>你的最终成果应该能让别人按照 README 复现主要实验</span></div>
+<hr><footer>资源链接保留原文地址；资源内容未随任务书下载。浏览器可搜索全文或打印为 PDF。</footer></main></body></html>

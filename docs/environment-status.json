@@ -1,0 +1,27 @@
+{
+  "checkedAt": "2026-10-13T18:55:53.330613+00:00",
+  "python": "3.12.12",
+  "pythonExecutable": "/Users/leohome/AI-Internship-Qianyu/.venv/bin/python",
+  "architecture": "arm64",
+  "packages": {
+    "numpy": "2.5.4",
+    "pandas": "3.0.6",
+    "scipy": "1.18.1",
+    "scikit-learn": "1.9.1",
+    "matplotlib": "3.11.2",
+    "seaborn": "0.13.2",
+    "jupyterlab": "4.6.4",
+    "ipykernel": "7.4.0",
+    "kaggle": "2.2.4"
+  },
+  "checks": {
+    "imports": "passed",
+    "PNGRendering": "passed",
+    "IrisLoader": "passed",
+    "DiabetesLoader": "passed",
+    "JupyterKernel": "passed",
+    "JupyterServer": "passed",
+    "JupyterKernelExecution": "passed"
+  },
+  "kaggleAuthentication": "not configured"
+}
