@@ -37,7 +37,7 @@
 
 Python 3.12.12（Apple Silicon 原生 arm64），由 uv 管理，项目环境位于 `.venv/`。
 
-已安装 NumPy、pandas、SciPy、scikit-learn、Matplotlib、Seaborn、JupyterLab、ipykernel 和 Kaggle CLI；依赖固定在 `uv.lock`，另附 `requirements.txt`。
+已安装 NumPy、pandas、SciPy、scikit-learn、Matplotlib、Seaborn、JupyterLab、ipykernel、PyTorch 和 Kaggle CLI；依赖固定在 `uv.lock`，另附 `requirements.txt`。
 
 启动实验界面：
 

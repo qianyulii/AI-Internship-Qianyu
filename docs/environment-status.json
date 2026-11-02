@@ -12,7 +12,8 @@
     "seaborn": "0.13.2",
     "jupyterlab": "4.6.4",
     "ipykernel": "7.4.0",
-    "kaggle": "2.2.4"
+    "kaggle": "2.2.4",
+    "torch": "2.14.1"
   },
   "checks": {
     "imports": "passed",
@@ -21,7 +22,19 @@
     "DiabetesLoader": "passed",
     "JupyterKernel": "passed",
     "JupyterServer": "passed",
-    "JupyterKernelExecution": "passed"
+    "JupyterKernelExecution": "passed",
+    "PyTorchAutograd": "passed"
   },
-  "kaggleAuthentication": "not configured"
+  "kaggleAuthentication": "not configured",
+  "VSCodeKernel": {
+    "name": "qianyu-ai-project",
+    "displayName": "Qianyu AI (.venv / Python 3.12.12)",
+    "python": "/Users/leohome/AI-Internship-Qianyu/.venv/bin/python",
+    "execution": "passed"
+  },
+  "pytorch": {
+    "checkedAt": "2026-10-14T05:33:38.134752+00:00",
+    "CPUTrainingStep": "passed",
+    "MPSAvailable": true
+  }
 }

@@ -1,0 +1,10 @@
+{
+  "selection_metric": "positive-class OOF F1",
+  "cv": "3-fold stratified CV inside the original 80% training set; shuffle=True, random_state=42",
+  "selected_model": "HGB_leaf31",
+  "selected_threshold": 0.27709489572433726,
+  "selected_estimator": "HistGradientBoostingClassifier(categorical_features=['SEX', 'EDUCATION',\n                                                     'MARRIAGE'],\n                               early_stopping=True, l2_regularization=10,\n                               learning_rate=0.05, max_iter=250,\n                               min_samples_leaf=30, random_state=42)",
+  "train_rows": 24000,
+  "test_rows": 6000,
+  "caveat": "OOF scores are used for selection; original test set was already inspected in earlier experiments."
+}
